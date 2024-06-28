@@ -50,6 +50,19 @@ public: Contains static files and the HTML template.
    ```powershell
    npm start
    ```
+### Steps to run the application
+1. Ensure all the necessary directores and files are created.
+2. Navigate to the root root directory and install concurrently:
+   ```powershell
+   npm install concurrently
+   ```
+
+2. Navigate to the root directory to start both servers using the following command:
+   ```powershell
+   npm start
+   ```
+This command will use concurrently to start both the frontend and backend servers.
+The frontend will be available at http://localhost:3000 and the backend will be running on http://localhost:5000.
 
 ## License
 
