@@ -1,0 +1,13 @@
+
+
+{
+  "name": "expense-tracker-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"npm run start --prefix backend\" \"npm run start --prefix frontend\""
+  },
+  "dependencies": {
+    "concurrently": "^6.2.0"
+  }
+}
